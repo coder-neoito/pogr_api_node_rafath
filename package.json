@@ -1,0 +1,34 @@
+{
+  "name": "pogr_api_node_rafath",
+  "description": "POGR Api with Node",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "NODE_ENV=development nodemon server.js",
+    "start:prod": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coder-neoito/pogr_api_node_rafath.git"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.3.0",
+    "pg": "^8.10.0"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coder-neoito/pogr_api_node_rafath/issues"
+  },
+  "homepage": "https://github.com/coder-neoito/pogr_api_node_rafath#readme",
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "umzug-cli": "^3.1.1"
+  }
+}
